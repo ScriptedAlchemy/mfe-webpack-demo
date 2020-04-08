@@ -18,6 +18,9 @@
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack --mode production",
-    "serve": "serve dist -p 3001"
+    "serve": "serve dist -p 3001 -s"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1"
   }
 }
